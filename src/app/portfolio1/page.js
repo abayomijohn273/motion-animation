@@ -1,4 +1,5 @@
 // Credit: - **Original Website:** (https://www.cynthiaugwu.com/)
+// Github: - https://github.com/jxlee007/PROJECT-1
 
 "use client";
 import Link from 'next/link'
