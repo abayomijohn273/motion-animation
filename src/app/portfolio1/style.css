@@ -1,0 +1,21 @@
+.underline-link {
+    position: relative;
+    cursor: pointer;
+}
+
+.underline-link::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform ease-in-out .6s;
+}
+
+.underline-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
